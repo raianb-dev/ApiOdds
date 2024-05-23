@@ -15,7 +15,7 @@ def scrap_flashscore(url):
     chrome_options.add_argument('--headless')
     if platform.system() == 'Linux':
         driver_path = './chromedriver'  # Caminho para o Chromedriver na raiz do projeto
-        driver = webdriver.Chrome(executable_path=driver_path, options=chrome_options)
+        driver = webdriver.Chrome(options=chrome_options)
     else:
         driver = webdriver.Chrome(options=chrome_options)
 
