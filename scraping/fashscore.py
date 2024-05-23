@@ -8,10 +8,10 @@ import uuid
 import re
 import platform
 from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 from pyvirtualdisplay import Display
 
 def scrap_flashscore(url):
-    # Inicie o Xvfb
     display = Display(visible=0, size=(1920, 1080))
     display.start()
 
@@ -22,14 +22,8 @@ def scrap_flashscore(url):
     chrome_options.add_argument('--disable-gpu')
     chrome_options.add_argument('--remote-debugging-port=9222')
 
-    # Especifique o caminho do binário do Chrome
-    chrome_options.binary_location = "/usr/bin/google-chrome"  # Atualize este caminho se necessário
-
-    if platform.system() == 'Linux':
-        service = Service(executable_path='./chromedriver')
-        driver = webdriver.Chrome(service=service, options=chrome_options)
-    else:
-        driver = webdriver.Chrome(options=chrome_options)
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=chrome_options)
 
     try:
         driver.get(url)
