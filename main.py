@@ -23,7 +23,7 @@ origins = [
     # Adicione outras origens permitidas aqui
 ]
 
-app = FastAPI(docs_url="/", title="API Football Today Odds 1.01")
+app = FastAPI(title="API Football Today Odds 1.01")
 
 app.add_middleware(
     CORSMiddleware,
