@@ -1,0 +1,279 @@
+{
+    "message": "Performace procedure success",
+    "time": "2024-01-22 16:00:08.617795",
+    "content": [
+        {
+            "id": "ba9c8760-fd21-4b9e-930d-f0a9b3ffd8c9",
+            "time-1": "Cabo Verde",
+            "time-2": "Egito",
+            "horario": "17:00",
+            "odds": {
+                "odd1": "8.00",
+                "odd2": "4.20",
+                "odd3": "1.45"
+            }
+        },
+        {
+            "id": "c86415fe-fa5b-4b1c-a5ce-197f47027b1d",
+            "time-1": "Flamengo U20",
+            "time-2": "Cruzeiro U20",
+            "horario": "19:30",
+            "odds": {
+                "odd1": "4.15",
+                "odd2": "3.80",
+                "odd3": "1.75"
+            }
+        },
+        {
+            "id": "5c5d5510-ea65-4a9e-a56e-72a88b9451fe",
+            "time-1": "Novorizontino U20",
+            "time-2": "Corinthians U20",
+            "horario": "21:30",
+            "odds": {
+                "odd1": "5.40",
+                "odd2": "4.20",
+                "odd3": "1.52"
+            }
+        },
+        {
+            "id": "2405c4fa-b0ab-427f-a63a-ecf1f2e89c0f",
+            "time-1": "Brighton",
+            "time-2": "Wolverhampton",
+            "horario": "16:45",
+            "odds": {
+                "odd1": "1.62",
+                "odd2": "4.00"
+            }
+        },
+        {
+            "id": "c2334b8a-46c0-4790-8e27-59a13466481a",
+            "time-1": "Liverpool M.",
+            "time-2": "Colo Colo",
+            "horario": "20:00",
+            "odds": {
+                "odd1": "3.15",
+                "odd2": "3.15",
+                "odd3": "2.20"
+            }
+        },
+        {
+            "id": "ee557953-2e6a-4285-a1cd-d9930d16d1dd",
+            "time-1": "Caucaia",
+            "time-2": "Barbalha",
+            "horario": "20:00",
+            "odds": {
+                "odd1": "1.98",
+                "odd2": "3.45",
+                "odd3": "3.40"
+            }
+        },
+        {
+            "id": "79616fc3-51cd-4dd8-83b6-c7193fb25248",
+            "time-1": "Coritiba",
+            "time-2": "Sao Joseense",
+            "horario": "20:00",
+            "odds": {
+                "odd1": "1.25",
+                "odd2": "5.25",
+                "odd3": "7.50"
+            }
+        },
+        {
+            "id": "5a038e1d-4775-4ef1-8a0e-8264f2798477",
+            "time-1": "Afogados da Ingazeira",
+            "time-2": "Porto",
+            "horario": "20:00",
+            "odds": {
+                "odd1": "1.62",
+                "odd2": "3.45",
+                "odd3": "5.50"
+            }
+        },
+        {
+            "id": "4c6a1697-f8e8-41a5-8ade-6ae332334634",
+            "time-1": "Deportivo Pasto",
+            "time-2": "Santa Fe",
+            "horario": "22:20",
+            "odds": {
+                "odd1": "2.70",
+                "odd2": "3.00",
+                "odd3": "2.80"
+            }
+        },
+        {
+            "id": "747780f1-045b-4b8d-960a-876c73b8b97b",
+            "time-1": "Guadalupe",
+            "time-2": "Santa Ana",
+            "horario": "22:00",
+            "odds": {
+                "odd1": "2.80",
+                "odd2": "2.25"
+            }
+        },
+        {
+            "id": "ea2baece-c873-468b-8241-65d86ecc0590",
+            "time-1": "Legan\u00e9s",
+            "time-2": "Burgos",
+            "horario": "16:30",
+            "odds": {
+                "odd1": "2.15",
+                "odd2": "3.00",
+                "odd3": "4.00"
+            }
+        },
+        {
+            "id": "8544ac69-15af-408b-a279-e3f15d6dbc17",
+            "time-1": "Nottingham U21",
+            "time-2": "Sparta Praga U21",
+            "horario": "16:00",
+            "odds": {
+                "odd1": "2.12",
+                "odd2": "2.77"
+            }
+        },
+        {
+            "id": "e6f389bd-9c9c-42ce-a91d-92e943616398",
+            "time-1": "Leicester",
+            "time-2": "Ipswich",
+            "horario": "17:00",
+            "odds": {
+                "odd1": "1.83",
+                "odd2": "3.60",
+                "odd3": "4.33"
+            }
+        },
+        {
+            "id": "60e02c68-e80a-435b-a6ea-fef9e9cfafd2",
+            "time-1": "Benevento",
+            "time-2": "Casertana",
+            "horario": "16:45",
+            "odds": {
+                "odd1": "1.85",
+                "odd2": "3.35",
+                "odd3": "4.10"
+            }
+        },
+        {
+            "id": "196a262d-0adf-451e-8f1c-d63c6d46ddf5",
+            "time-1": "Napoli",
+            "time-2": "Inter",
+            "horario": "16:00",
+            "odds": {
+                "odd1": "5.25",
+                "odd2": "4.00",
+                "odd3": "1.62"
+            }
+        },
+        {
+            "id": "b124051c-1477-4c97-a908-2aafa75e75f1",
+            "time-1": "Arnett Gardens",
+            "time-2": "Molynes",
+            "horario": "19:00",
+            "odds": {
+                "odd1": "1.52",
+                "odd2": "4.05",
+                "odd3": "5.50"
+            }
+        },
+        {
+            "id": "b4aa7d0c-2673-4a07-91c0-4d457954a913",
+            "time-1": "Tivoli",
+            "time-2": "Cavalier",
+            "horario": "19:00",
+            "odds": {
+                "odd1": "3.20",
+                "odd2": "3.30",
+                "odd3": "2.10"
+            }
+        },
+        {
+            "id": "cfc53830-0b8b-44eb-85ff-356cec394343",
+            "time-1": "Montego Bay",
+            "time-2": "Waterhouse",
+            "horario": "21:30",
+            "odds": {
+                "odd1": "3.35",
+                "odd2": "3.30",
+                "odd3": "2.05"
+            }
+        },
+        {
+            "id": "2d346892-4248-4c82-bec7-a0b9b5b9a074",
+            "time-1": "Al-Shabab (Sau)",
+            "time-2": "Riga FC (Lat)",
+            "horario": "10:00\nSRF",
+            "odds": {
+                "odd1": "1.82",
+                "odd2": "3.70",
+                "odd3": "3.35"
+            }
+        },
+        {
+            "id": "84644a47-bb7a-496e-a223-8f9191db3b76",
+            "time-1": "VfL Oldenburg (Ger)",
+            "time-2": "Bremer (Ger)",
+            "horario": "15:30\nSRF",
+            "odds": {
+                "odd1": "4.15",
+                "odd2": "4.45",
+                "odd3": "1.53"
+            }
+        },
+        {
+            "id": "992edf8a-794c-4c49-b352-77856673b6b6",
+            "time-1": "Drogheda (Irl)",
+            "time-2": "Bohemians (Irl)",
+            "horario": "16:45",
+            "odds": {
+                "odd1": "1.36",
+                "odd2": "4.55",
+                "odd3": "7.30"
+            }
+        },
+        {
+            "id": "63b27849-d812-41d6-aac1-56f48549ae67",
+            "time-1": "FC Dallas (Usa)",
+            "time-2": "Inter Miami (Usa)",
+            "horario": "20:00",
+            "odds": {
+                "odd1": "2.87",
+                "odd2": "3.65",
+                "odd3": "2.15"
+            }
+        },
+        {
+            "id": "f1186ea3-ec12-40f1-ab8d-0057b2cd5811",
+            "time-1": "Jong Ajax",
+            "time-2": "Groningen",
+            "horario": "16:00",
+            "odds": {
+                "odd1": "4.50",
+                "odd2": "4.00",
+                "odd3": "1.70"
+            }
+        },
+        {
+            "id": "dc54cc8c-dec4-4d26-b896-edf38f75ffee",
+            "time-1": "Jong AZ",
+            "time-2": "Dordrecht",
+            "horario": "16:00",
+            "odds": {
+                "odd1": "2.05",
+                "odd2": "4.00",
+                "odd3": "3.20"
+            }
+        },
+        {
+            "id": "999dc72a-1851-4b90-9118-b7c56600915d",
+            "time-1": "Roda",
+            "time-2": "Eindhoven",
+            "horario": "16:00",
+            "odds": {
+                "odd1": "1.62",
+                "odd2": "4.20",
+                "odd3": "5.25"
+            }
+        }
+    ],
+    "footer": "Api/v1 sports football"
+}
