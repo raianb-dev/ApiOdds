@@ -70,7 +70,7 @@ def scrap_flashscore(url):
                         if odd_value:
                             odds_encontradas.append(odd_value.group(1) or odd_value.group(2))
 
-                    if horario_encontrado e len(times_encontrados) == 2 or horario_encontrado e odds_encontradas:
+                    if (horario_encontrado and len(times_encontrados) == 2) or (horario_encontrado and odds_encontradas):
                         id = str(uuid.uuid4())
                         jogo_info = {
                             "id": f"{id}",
