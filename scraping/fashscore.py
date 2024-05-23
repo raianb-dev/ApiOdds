@@ -9,12 +9,13 @@ import re
 import platform
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
-from pyvirtualdisplay import Display
 
 def scrap_flashscore(url):
-    display = Display(visible=0, size=(1920, 1080))
-    display.start()
-
+    if platform.system() == 'Linux':
+        from pyvirtualdisplay import Display
+        display = Display(visible=0, size=(1920, 1080))
+        display.start()
+    
     chrome_options = Options()
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--no-sandbox')
@@ -105,4 +106,5 @@ def scrap_flashscore(url):
     finally:
         if driver:
             driver.quit()
-        display.stop()
+        if platform.system() == 'Linux':
+            display.stop()
