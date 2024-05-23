@@ -6,11 +6,18 @@ from selenium.webdriver.chrome.options import Options
 import time
 import uuid
 import re
+import platform
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 
 def scrap_flashscore(url):
     chrome_options = Options()
     chrome_options.add_argument('--headless')
-    driver = webdriver.Chrome(options=chrome_options)
+    if platform.system() == 'Linux':
+        driver_path = './chromedriver'  # Caminho para o Chromedriver na raiz do projeto
+        driver = webdriver.Chrome(executable_path=driver_path, options=chrome_options)
+    else:
+        driver = webdriver.Chrome(options=chrome_options)
 
     try:
         driver.get(url)
