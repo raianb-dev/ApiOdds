@@ -8,10 +8,19 @@ import uuid
 import re
 import platform
 from selenium.webdriver.chrome.service import Service
+from pyvirtualdisplay import Display
 
 def scrap_flashscore(url):
+    # Inicie o Xvfb
+    display = Display(visible=0, size=(1920, 1080))
+    display.start()
+
     chrome_options = Options()
     chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('--disable-dev-shm-usage')
+    chrome_options.add_argument('--disable-gpu')
+    chrome_options.add_argument('--remote-debugging-port=9222')
 
     # Especifique o caminho do binário do Chrome
     chrome_options.binary_location = "/usr/bin/google-chrome"  # Atualize este caminho se necessário
@@ -102,3 +111,4 @@ def scrap_flashscore(url):
     finally:
         if driver:
             driver.quit()
+        display.stop()
