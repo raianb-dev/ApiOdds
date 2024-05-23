@@ -9,13 +9,14 @@ import re
 import platform
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
 
 def scrap_flashscore(url):
     chrome_options = Options()
     chrome_options.add_argument('--headless')
     if platform.system() == 'Linux':
-        driver_path = './chromedriver'  # Caminho para o Chromedriver na raiz do projeto
-        driver = webdriver.Chrome(options=chrome_options)
+        service = Service(executable_path='./chromedriver')
+        driver = webdriver.Chrome(service=service, options=chrome_options)
     else:
         driver = webdriver.Chrome(options=chrome_options)
 
