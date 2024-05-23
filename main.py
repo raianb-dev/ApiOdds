@@ -18,6 +18,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 origins = [
     "https://football-odds-api.p.rapidapi.com",
+    "https://odds-api-football.p.rapidapi.com"
     "http://localhost",
     # Adicione outras origens permitidas aqui
 ]
